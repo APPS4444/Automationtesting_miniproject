@@ -201,10 +201,10 @@ List<WebElement> L= W.findElements(By.tagName("a"));
 		
 	
 		
-		//W.findElement(By.linkText("Insurance Project")).click();
-		//W.navigate().refresh();
+		W.findElement(By.linkText("Insurance Project")).click();
+		W.navigate().refresh();
 		
-	/*	W.findElement(By.linkText("Agile Project")).click();
+		W.findElement(By.linkText("Agile Project")).click();
 		
 	W.findElement(By.name("uid")).sendKeys("test");//for textfield we use sendkey
 		
@@ -220,9 +220,9 @@ List<WebElement> L= W.findElements(By.tagName("a"));
 		Alert a1 = W.switchTo().alert();
 		System.out.println(a1.getText());
 		
-		a1.accept();*/
+		a1.accept();
 		
-	/*	W.findElement(By.linkText("Bank Project")).click();
+		W.findElement(By.linkText("Bank Project")).click();
 		W.navigate().refresh();
 		
 		W.findElement(By.linkText("Security Project")).click();
